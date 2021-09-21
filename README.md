@@ -7,9 +7,9 @@ Download a subfolder (scaffold) from this repo to start a new project with some 
 
 | scaffold | description |
 | --- | --- | 
-| simple-python-venv-project | This is a simple Python project based on python virtual environment |
-| simple-python-conda-project | This is a simple Python project based on conda environment |
-| simple-python-devontainer-project | This is a simple Python project based on vscode devcontainer |
+| simple-python-venv-project | A simple Python project based on python virtual environment |
+| simple-python-conda-project | A simple Python project based on conda environment |
+| simple-python-devontainer-project | A simple Python project based on vscode devcontainer |
 
 
 ## To download a project-scaffold
