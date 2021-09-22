@@ -15,6 +15,6 @@ Download a subfolder (scaffold) from this repo to start a new project with some 
 ## To download a project-scaffold
 Example: Download simple-python-venv-project
 ``` 
-$SCAFFOLD=simple-python-venv-project 
+SCAFFOLD=simple-python-venv-project 
 svn checkout https://github.com/d-xa/project-scaffolds/trunk/$SCAFFOLD && rm -rf $SCAFFOLD/.svn
 ```
