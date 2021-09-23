@@ -1,20 +1,46 @@
-# project-scaffolds
+# Python testproject
 
-This repo contains project-scaffolds to speed up development.
-Download a subfolder (scaffold) from this repo to start a new project with some predefined structure and files.
-
-## List of scaffolds
-
-| scaffold | description |
-| --- | --- | 
-| simple-python-venv-project | A simple Python project based on python virtual environment |
-| simple-python-conda-project | A simple Python project based on conda environment |
-| simple-python-devontainer-project | A simple Python project based on vscode devcontainer |
-
-
-## To download a project-scaffold
-Example: Download simple-python-venv-project
-``` 
-SCAFFOLD=simple-python-venv-project 
-svn checkout https://github.com/d-xa/project-scaffolds/trunk/$SCAFFOLD && rm -rf $SCAFFOLD/.svn
+## 1. Create and activate python virtual environment
 ```
+python3 -m venv .venv
+. .venv/bin/activate
+``` 
+
+## 2. Make use of make
+``` 
+# to create virtual environment
+make venv
+
+# to install dependencies in requirements.txt
+make install
+
+# to check for code style
+make style
+
+# to lint code
+make lint
+
+# to test code
+make test
+
+# to create python package source distribution and wheel
+make package
+
+# to install for development
+make develop
+
+# to clean up build
+make clean
+```
+
+## Tips
+
+Define alias to activate venv faster
+```
+echo "alias vactivate='. .venv/bin/activate'" | tee -a ~/.bashrc
+bash ~/.bashrc 
+# activate venv
+vactivate
+```
+
+
