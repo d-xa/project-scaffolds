@@ -13,8 +13,9 @@ Download a subfolder (scaffold) from this repo to start a new project with some 
 
 
 ## To download a project-scaffold
-Example: Download simple-python-venv-project
+Example: Download SCAFFOLD=simple-python-venv-project scaffold to start a new project named NEWPRJ=a-new-project-name
 ``` 
 SCAFFOLD=simple-python-venv-project 
-svn checkout https://github.com/d-xa/project-scaffolds/trunk/$SCAFFOLD && rm -rf $SCAFFOLD/.svn
+NEWPRJ=a-new-project-name
+mkdir $NEWPRJ && curl -L https://github.com/d-xa/project-scaffolds/tarball/$SCAFFOLD | tar -xzv --strip-components=1 -C $NEWPRJ
 ```
