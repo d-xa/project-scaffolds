@@ -1,0 +1,5 @@
+pylint
+pytest
+setuptools
+pycodestyle
+pyspark

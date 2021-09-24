@@ -1,4 +1,4 @@
-# Python testproject
+# simple-python-venv-project
 
 ## 1. Create and activate python virtual environment
 ```
