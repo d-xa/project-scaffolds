@@ -1,4 +1,4 @@
-# Python project based on vscode devcontainers
+# Spark Python project based on vscode devcontainers
 
 ## 1. For development in vscode 
 
