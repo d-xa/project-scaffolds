@@ -12,10 +12,10 @@ Download a subfolder (scaffold) from this repo to start a new project with some 
 | simple-python-devontainer-project | A simple Python project based on vscode devcontainer |
 
 
-## To download a project-scaffold
-Example: Download SCAFFOLD=simple-python-venv-project scaffold to start a new project named NEWPRJ=a-new-project-name
+## To start a new project based on project-scaffold
+Example: Download simple-python-venv-project scaffold and start a new project named my-new-project
 ``` 
 SCAFFOLD=simple-python-venv-project 
-NEWPRJ=a-new-project-name
+NEWPRJ=my-new-project
 mkdir $NEWPRJ && curl -L https://github.com/d-xa/project-scaffolds/tarball/$SCAFFOLD | tar -xzv --strip-components=1 -C $NEWPRJ
 ```
