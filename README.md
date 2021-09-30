@@ -19,3 +19,20 @@ SCAFFOLD=simple-python-venv-project
 NEWPRJ=my-new-project
 mkdir $NEWPRJ && curl -L https://github.com/d-xa/project-scaffolds/tarball/$SCAFFOLD | tar -xzv --strip-components=1 -C $NEWPRJ
 ```
+
+## Alternative: use my helper script from https://github.com/d-xa/scripts
+
+Example: Call script functions remotely
+> scafffold.sh list
+
+To list all available project scaffolds 
+```
+wget -O - https://raw.githubusercontent.com/d-xa/scripts/master/scaffold.sh | bash -s list
+```
+
+> scaffold.sh create
+
+To create a new project based on a specified scaffold
+```
+wget -O - https://raw.githubusercontent.com/d-xa/scripts/master/scaffold.sh | bash -s create -s=simple-python-venv-project -n=my-new-project
+```
