@@ -1,3 +1,0 @@
-\selectlanguage *{english}
-\contentsline {chapter}{\numberline {1}Example}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}common manipulations}{4}{section.1.1}%
