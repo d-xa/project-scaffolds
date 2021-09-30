@@ -1,6 +1,0 @@
-# Table of contentsa
-
-format: jb-book
-root: content/markdown/intro
-chapters:
-- file: content/notebook/example
