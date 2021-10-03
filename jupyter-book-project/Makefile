@@ -3,6 +3,7 @@ venv:
 
 install-pip:
 	. .venv/bin/activate; \
+	export PIP_USER=no; \
 	pip install --upgrade pip && pip install -r requirements.txt
 
 install-tex:
