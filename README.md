@@ -10,6 +10,7 @@ Download a subfolder (scaffold) from this repo to start a new project with some 
 | simple-python-venv-project | A simple Python project based on python virtual environment |
 | simple-python-conda-project | A simple Python project based on conda environment |
 | simple-python-devontainer-project | A simple Python project based on vscode devcontainer |
+| jupyter-book-project | A simple jupyter book project |
 
 
 ## To start a new project based on project-scaffold
