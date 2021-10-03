@@ -7,6 +7,7 @@ install-pip:
 	pip install --upgrade pip && pip install -r requirements.txt
 
 install-tex:
+	sudo apt update && \
 	sudo apt-get install texlive-latex-recommended texlive-latex-extra \
                 	texlive-fonts-recommended texlive-fonts-extra \
                     texlive-xetex latexmk
@@ -14,7 +15,7 @@ install-tex:
 install:
 	make venv
 	make install-pip
-	# make install-tex
+	make install-tex
 
 htmlbook:
 	rm -rf book/_build/html/*
